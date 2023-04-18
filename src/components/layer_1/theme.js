@@ -1,0 +1,23 @@
+let layer1Theme = new Element(BUTTON);
+layer1Theme.set_id("layer1Theme");
+layer1Theme.set_backgroundColor("transparent")
+layer1Theme.set_border("0px");
+//layer1Theme.set_outline("0px");
+//layer1Theme.set_width("20%");
+//layer1Theme.set_height("40%");
+layer1Theme.set_textContent("Theme");
+layer1Theme.set_textAlign("center");
+//layer1Theme.set_color("#FFFFFF");
+layer1Theme.set_fontFamily("Supermercado One");
+layer1Theme.set_fontSize("200%");
+layer1Theme.set_fontWeight("bold");
+//layer1Theme.set_position("absolute");
+layer1Theme.set_padding("0% 0% 0% 0%");
+layer1Theme.set_margin("0% 0% 0% 0%");
+//layer1Theme.set_borderRadius("10px");
+//layer1Theme.set_border("solid #4169E1 2px");
+//layer1Theme.set_left("50%");
+//layer1Theme.set_top("30%");
+layer1Theme.set_cursor("pointer");
+layer1Theme.set_functionOnClick( scroll_down_event );
+layer1Theme.set_parent(layer1Buttons);

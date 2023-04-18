@@ -1,0 +1,18 @@
+/* Webkit browsers (Chrome, Safari) */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* MS Browsers (Edge, Internet Explorer) */
+
+* {
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch; /* Touch scroll by default */
+}
+
+.native_scroll_container {
+  /* width: 500px;
+  height: 200px; */
+  /* overflow-y: scroll; */
+}

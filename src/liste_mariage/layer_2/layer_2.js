@@ -1,0 +1,43 @@
+let layer2 = new Element(DIV);
+layer2.set_id("layer2");
+layer2.set_width("100%");
+//layer2.set_height("25%");
+layer2.set_position("absolute");
+//layer2.set_backgroundColor("#7F7F7F");
+layer2.set_top("75%");
+layer2.set_justify_content("center");
+layer2.set_left("0px");
+layer2.set_margin("0px 0px 0px 0px");
+layer2.set_padding("0% 0px 0px 0px");
+document.body.appendChild(layer2.element());
+
+let layer2Text = new Element(DIV);
+layer2Text.set_id("layer2Text");;
+//layer2Text.set_position("absolute");
+layer2Text.set_left("0%");
+layer2Text.set_margin("0% 0% 0px 0px");
+layer2Text.set_padding("0% 0px 0px 0px");
+layer2Text.set_innerHTML("LISTE DES CADEAUX DE MARIAGE");
+layer2Text.set_fontFamily("Supermercado One");
+layer2Text.set_fontSize("350%");
+//layer2Text.set_color("#FFFFFF");
+layer2Text.set_fontWeight("bold");
+layer2Text.set_textAlign("center");
+layer2Text.set_color("#FFFFFF");
+layer2Text.set_parent(layer2);
+
+let layer2subText = new Element(DIV);
+layer2subText.set_id("layer2subText");;
+//layer2Text.set_position("absolute");
+layer2subText.set_left("0%");
+layer2subText.set_margin("0% 0% 0px 0px");
+layer2subText.set_padding("0% 0px 0px 0px");
+layer2subText.set_innerHTML("<br>Pour participer, merci de contacter Marine ou Benjamin par e-mail :<br>\
+marinemartinj@gmail.com &nbsp &nbsp &nbsp benjaminlevavasseur@hotmail.com");
+layer2subText.set_fontFamily("Supermercado One");
+layer2subText.set_fontSize("250%");
+//layer2subText.set_color("#FFFFFF");
+layer2subText.set_fontWeight("bold");
+layer2subText.set_textAlign("center");
+layer2subText.set_color("#FFFFFF");
+layer2subText.set_parent(layer2);

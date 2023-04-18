@@ -1,0 +1,17 @@
+let layer3 = new Element(DIV);
+layer3.set_id("layer3");
+layer3.set_width("100%");
+layer3.set_height("50%");
+layer3.set_position("absolute");
+//layer3.set_backgroundColor("#FFFFFF");
+layer3.set_top("100%");
+layer3.set_left("0px");
+layer3.set_margin("0px 0px 0px 0px");
+layer3.set_padding("0px 0px 0px 0px");
+//layer3.set_innerHTML("Se marient<br/>le<br/>10 Juin 2023 !");
+//layer3.set_fontFamily("Supermercado One");
+//layer3.set_fontSize("250%");
+//layer3.set_color("#FFFFFF");
+//layer3.set_fontWeight("bold");
+//layer3.set_textAlign("center");
+document.body.appendChild(layer3.element());

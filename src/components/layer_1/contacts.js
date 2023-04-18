@@ -1,0 +1,23 @@
+let layer1ContactsButton = new Element(BUTTON);
+layer1ContactsButton.set_id("layer1ContactsButton");
+layer1ContactsButton.set_backgroundColor("transparent")
+layer1ContactsButton.set_border("0px");
+//layer1ContactsButton.set_outline("0px");
+//layer1ContactsButton.set_width("20%");
+//layer1ContactsButton.set_height("40%");
+layer1ContactsButton.set_textContent("Contacts");
+layer1ContactsButton.set_textAlign("center");
+//layer1ContactsButton.set_color("#FFFFFF");
+layer1ContactsButton.set_fontFamily("Supermercado One");
+layer1ContactsButton.set_fontSize("200%");
+layer1ContactsButton.set_fontWeight("bold");
+//layer1ContactsButton.set_position("absolute");
+layer1ContactsButton.set_padding("0% 0% 0% 0%");
+layer1ContactsButton.set_margin("0% 0% 0% 0%");
+//layer1ContactsButton.set_borderRadius("10px");
+//layer1ContactsButton.set_border("solid #4169E1 2px");
+//layer1ContactsButton.set_left("65%");
+//layer1ContactsButton.set_top("30%");
+layer1ContactsButton.set_cursor("pointer");
+layer1ContactsButton.set_functionOnClick( scroll_down_event );
+layer1ContactsButton.set_parent(layer1Buttons);

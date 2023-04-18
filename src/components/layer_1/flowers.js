@@ -1,0 +1,11 @@
+let layer1Flowers = new Element(IMG);
+layer1Flowers.set_id("layer1Flowers");
+layer1Flowers.set_src(rpath + "assets/flowers.png");
+layer1Flowers.set_width("30%");
+layer1Flowers.set_height("90%");
+layer1Flowers.set_position("absolute");
+layer1Flowers.set_top("5%");
+layer1Flowers.set_left("35%");
+layer1Flowers.set_margin("0px 0px 0px 0px");
+layer1Flowers.set_padding("0px 0px 0px 0px");
+layer1Flowers.set_parent(layer1);

@@ -1,0 +1,28 @@
+let layer2 = new Element(DIV);
+layer2.set_id("layer2");
+layer2.set_width("90%");
+layer2.set_height("25%");
+layer2.set_position("absolute");
+//layer2.set_backgroundColor("#7F7F7F");
+//layer2.set_top("75%");
+layer2.set_display("flex");
+layer2.set_align_items("center");
+layer2.set_justify_content("center");
+layer2.set_left("5%");
+layer2.set_margin("0px 0px 0px 0px");
+layer2.set_padding("0% 0px 0px 0px");
+document.body.appendChild(layer2.element());
+
+let layer2Text = new Element(DIV);
+layer2Text.set_id("layer2Text");;
+//layer2Text.set_position("absolute");
+layer2Text.set_left("0%");
+layer2Text.set_margin("0% 0% 0px 0px");
+layer2Text.set_padding("0% 0px 0px 0px");
+layer2Text.set_innerHTML("Se marient le 10 Juin 2023 !");
+layer2Text.set_fontFamily("Supermercado One");
+layer2Text.set_fontSize("500%");
+layer2Text.set_color("#FFFFFF");
+layer2Text.set_fontWeight("bold");
+layer2Text.set_textAlign("center");
+layer2Text.set_parent(layer2);

@@ -1,0 +1,23 @@
+let layer1LogementsButton = new Element(BUTTON);
+layer1LogementsButton.set_id("layer1LogementsButton");
+layer1LogementsButton.set_backgroundColor("transparent")
+layer1LogementsButton.set_border("0px");
+//layer1LogementsButton.set_outline("0px");
+//layer1LogementsButton.set_width("20%");
+//layer1LogementsButton.set_height("40%");
+layer1LogementsButton.set_textContent("Y aller / Se loger");
+layer1LogementsButton.set_textAlign("center");
+//layer1LogementsButton.set_color("#FFFFFF");
+layer1LogementsButton.set_fontFamily("Supermercado One");
+layer1LogementsButton.set_fontSize("200%");
+layer1LogementsButton.set_fontWeight("bold");
+//layer1LogementsButton.set_position("absolute");
+layer1LogementsButton.set_padding("0% 0% 0% 0%");
+layer1LogementsButton.set_margin("0% 0% 0% 0%");
+//layer1LogementsButton.set_borderRadius("10px");
+//layer1LogementsButton.set_border("solid #4169E1 2px");
+//layer1LogementsButton.set_left("30%");
+//layer1LogementsButton.set_top("30%");
+layer1LogementsButton.set_cursor("pointer");
+layer1LogementsButton.set_functionOnClick( scroll_down_event );
+layer1LogementsButton.set_parent(layer1Buttons);

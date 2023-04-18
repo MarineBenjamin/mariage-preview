@@ -1,0 +1,18 @@
+let layer4Marine = new Element(DIV);
+layer4Marine.set_id("layer4Marine");
+layer4Marine.set_width("50%");
+layer4Marine.set_height("50%");
+layer4Marine.set_position("absolute");
+//layer4Marine.set_backgroundColor("#7F7F7F");
+layer4Marine.set_top("50%");
+layer4Marine.set_left("0px");
+layer4Marine.set_margin("0px 0px 0px 0px");
+layer4Marine.set_padding("0px 0px 0px 0px");
+layer4Marine.set_innerHTML("Marine : 06 30 60 42 46");
+layer4Marine.set_fontFamily("Supermercado One");
+layer4Marine.set_fontSize("75%");
+//layer4Marine.set_color("#FFFFFF");
+layer4Marine.set_fontWeight("bold");
+layer4Marine.set_textAlign("center");
+layer4Marine.set_color("#FFFFFF");
+layer4Marine.set_parent(layer5);

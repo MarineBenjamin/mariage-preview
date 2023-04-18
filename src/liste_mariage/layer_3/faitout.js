@@ -13,7 +13,7 @@ faitout.set_parent(layer3);
 
 let faitoutImg = new Element(IMG);
 faitoutImg.set_id("faitoutImg");
-faitoutImg.set_src(rpath + "../../assets/faitout.png");
+faitoutImg.set_src(rpath + "../../assets/Faitout.png");
 faitoutImg.set_width("75%");
 // faitoutImg.set_height("90%");
 faitoutImg.set_position("absolute");

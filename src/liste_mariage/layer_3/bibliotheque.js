@@ -13,7 +13,7 @@ bibliotheque.set_parent(layer3);
 
 let bibliothequeImg = new Element(IMG);
 bibliothequeImg.set_id("bibliothequeImg");
-bibliothequeImg.set_src(rpath + "../../assets/bibliotheque.png");
+bibliothequeImg.set_src(rpath + "../../assets/Bibliotheque.png");
 bibliothequeImg.set_width("75%");
 bibliothequeImg.set_position("absolute");
 bibliothequeImg.set_top("0%");

@@ -12,8 +12,8 @@ layer1.set_left("0px");
 layer1.set_margin("0px 0px 0px 0px");
 layer1.set_padding("0px 0px 0px 0px");
 layer1.set_display("flex");
-layer1.set_flex("1");
-layer1.set_flex_direction("row");
-layer1.set_align_items("left");
-layer1.set_justify_content("left")
+//layer1.set_flex("1");
+//layer1.set_flex_direction("row");
+//layer1.set_align_items("left");
+//layer1.set_justify_content("left")
 document.body.appendChild(layer1.element());

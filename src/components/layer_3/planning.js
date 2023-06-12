@@ -10,7 +10,7 @@ layer3PlanningContainer.set_margin("0px 0px 0px 0px");
 layer3PlanningContainer.set_padding("0px 0px 0px 0px");
 layer3PlanningContainer.set_overflowX("hidden");
 layer3PlanningContainer.set_overflowY("hidden");
-layer3PlanningContainer.set_parent(layer3);
+//layer3PlanningContainer.set_parent(layer3);
 
 let layer3PlanningContainerLeftButtonImage = new Element(DIV);
 layer3PlanningContainerLeftButtonImage.set_id("layer3PlanningContainerLeftButtonImage");

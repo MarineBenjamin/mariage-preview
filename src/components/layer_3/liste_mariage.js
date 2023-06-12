@@ -11,7 +11,7 @@ layer3ListeMariageContainer.set_margin("0px 0px 0px 0px");
 layer3ListeMariageContainer.set_padding("0px 0px 0px 0px");
 layer3ListeMariageContainer.set_overflowX("hidden");
 layer3ListeMariageContainer.set_overflowY("hidden");
-layer3ListeMariageContainer.set_parent(layer3);
+//layer3ListeMariageContainer.set_parent(layer3);
 
 let Layer3ListeMariageText = new Element("layer3ListeMariageContainerItem");
 Layer3ListeMariageText.set_id("Layer3ListeMariageText");

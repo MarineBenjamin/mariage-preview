@@ -11,7 +11,7 @@ layer3YallerSeLogerContainer.set_margin("0px 0px 0px 0px");
 layer3YallerSeLogerContainer.set_padding("0px 0px 0px 0px");
 layer3YallerSeLogerContainer.set_overflowX("hidden");
 layer3YallerSeLogerContainer.set_overflowY("hidden");
-layer3YallerSeLogerContainer.set_parent(layer3);
+//layer3YallerSeLogerContainer.set_parent(layer3);
 
 let Layer3YallerSeLogerText = new Element("layer3YallerSeLogerContainerItem");
 Layer3YallerSeLogerText.set_id("Layer3YallerSeLogerText");

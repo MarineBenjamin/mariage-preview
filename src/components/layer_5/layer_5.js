@@ -16,4 +16,4 @@ layer5.set_innerHTML("Contacts");
 layer5.set_fontWeight("bold");
 layer5.set_textAlign("center");
 layer5.set_color("#FFFFFF");
-document.body.appendChild(layer5.element());
+//document.body.appendChild(layer5.element());

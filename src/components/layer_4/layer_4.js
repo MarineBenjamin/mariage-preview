@@ -15,4 +15,4 @@ layer4.set_fontSize("250%");
 layer4.set_fontWeight("bold");
 layer4.set_textAlign("center");
 layer4.set_color("#FFFFFF");
-document.body.appendChild(layer4.element());
+//document.body.appendChild(layer4.element());
